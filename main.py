@@ -506,6 +506,10 @@ cup_colors = {
 }
 
 randomMaps = random.sample(maps, 8)
+data = [randomMaps.index(item) + 1 for item in randomMaps]
 
 # Ui stuff
 view = ui.load_view("UI.pyui")
+table = view["Map_Table"]
+table.data_source = ui.ListDataSource(data)
+view.present("sheet")
