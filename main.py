@@ -518,10 +518,22 @@ cup_colors = {
 }
 
 randomMaps = random.sample(maps, 8)
-data = [randomMaps.index(item) + 1 for item in randomMaps]
+data = [randomMaps.index(item) for item in randomMaps]
 
 # Ui stuff
 view = ui.load_view("UI.pyui")
 table = view["Map_Table"]
 table.data_source = ui.ListDataSource(data)
+map_label = view["Map_Label"]
+cup_label = view["Cup_Label"]
+tip_label = view["Tip_Label"]
+
+
+def table_view_did_select(sender, row):
+    map_label.text = randomMaps[row]["name"]
+    cup_label.text = randomMaps[row]["cup"]
+    tip_label.text = randomMaps[row]["tip"]
+
+
+table.did_select = table_view_did_select
 view.present("sheet")
