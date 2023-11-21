@@ -3,479 +3,401 @@ import ui
 
 maps = [
     {
-        "name": "Mario Circuit",
-        "cup": "Mushroom Cup",
-        "weight": 1
-    },
-    {
-        "name": "Toad Harbor",
-        "cup": "Mushroom Cup",
-        "weight": 1
-    },
-    {
-        "name": "Twisted Mansion",
-        "cup": "Mushroom Cup",
-        "weight": 1
-    },
-    {
-        "name": "Shy Guy Falls",
-        "cup": "Mushroom Cup",
-        "weight": 1
-    },
-    {
-        "name": "Sunshine Airport",
-        "cup": "Flower Cup",
-        "weight": 1
-    },
-    {
-        "name": "Dolphin Shoals",
-        "cup": "Flower Cup",
-        "weight": 1
-    },
-    {
-        "name": "Electrodrome",
-        "cup": "Flower Cup",
-        "weight": 1
-    },
-    {
-        "name": "Mount Wario",
-        "cup": "Flower Cup",
-        "weight": 1
-    },
-    {
-        "name": "Cloudtop Cruise",
-        "cup": "Star Cup",
-        "weight": 1
-    },
-    {
-        "name": "Bone-Dry Dunes",
-        "cup": "Star Cup",
-        "weight": 1
-    },
-    {
-        "name": "Bowser's Castle",
-        "cup": "Star Cup",
-        "weight": 1
-    },
-    {
-        "name": "Rainbow Road",
-        "cup": "Star Cup",
-        "weight": 1
-    },
-    {
         "name": "Mario Kart Stadium",
-        "cup": "Special Cup",
-        "weight": 1
+        "cup": "Mushroom Cup",
+        "tip": "Bullet extension: Just before mid ramp"
     },
     {
         "name": "Water Park",
-        "cup": "Special Cup",
-        "weight": 1
+        "cup": "Mushroom Cup",
+        "tip": "No bullet extensions"
     },
     {
         "name": "Sweet Sweet Canyon",
-        "cup": "Special Cup",
-        "weight": 1
+        "cup": "Mushroom Cup",
+        "tip": "Bullet extension: Just before donut"
     },
     {
         "name": "Thwomp Ruins",
-        "cup": "Special Cup",
-        "weight": 1
+        "cup": "Mushroom Cup",
+        "tip": "No bullet extensions"
     },
     {
         "name": "Mario Circuit",
-        "cup": "Egg Cup",
-        "weight": 1
+        "cup": "Flower Cup",
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Yoshi Circuit",
-        "cup": "Egg Cup",
-        "weight": 1
+        "name": "Toad Harbor",
+        "cup": "Flower Cup",
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Excitebike Arena",
-        "cup": "Egg Cup",
-        "weight": 1
+        "name": "Twisted Mansion",
+        "cup": "Flower Cup",
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Dragon Driftway",
-        "cup": "Egg Cup",
-        "weight": 1
+        "name": "Shy Guy Falls",
+        "cup": "Flower Cup",
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Mute City",
-        "cup": "Crossing Cup",
-        "weight": 1
+        "name": "Sunshine Airport",
+        "cup": "Star Cup",
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Baby Park",
-        "cup": "Crossing Cup",
-        "weight": 1
+        "name": "Dolphin Shoals",
+        "cup": "Star Cup",
+        "tip": "Bullet extension: Right at finish line, mid section of eel"
     },
     {
-        "name": "Cheese Land",
-        "cup": "Crossing Cup",
-        "weight": 1
+        "name": "Electrodrome",
+        "cup": "Star Cup",
+        "tip": "Bullet extension: Offroad before finish line"
     },
     {
-        "name": "Wild Woods",
-        "cup": "Crossing Cup",
-        "weight": 1
+        "name": "Mount Wario",
+        "cup": "Star Cup",
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Neo Bowser City",
+        "name": "Cloudtop Cruise",
+        "cup": "Special Cup",
+        "tip": "Bullet extension: End of glider going back to ground"
+    },
+    {
+        "name": "Bone-Dry Dunes",
+        "cup": "Special Cup",
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "Bowser's Castle",
+        "cup": "Special Cup",
+        "tip": "Bullet Extension: Slightly before finish line"
+    },
+    {
+        "name": "Rainbow Road",
+        "cup": "Special Cup",
+        "tip": "Bullet Extension: first twist section on bottom"
+    },
+    {
+        "name": "Moo Moo Meadows",
         "cup": "Shell Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Ribbon Road",
+        "name": "Mario Circuit",
         "cup": "Shell Cup",
-        "weight": 1
-    },
-    {
-        "name": "Super Bell Subway",
-        "cup": "Shell Cup",
-        "weight": 1
-    },
-    {
-        "name": "Big Blue",
-        "cup": "Shell Cup",
-        "weight": 1
-    },
-    {
-        "name": "Animal Crossing",
-        "cup": "Banana Cup",
-        "weight": 1
+        "tip": "Bullet extension: Left of shortcut tires after finish line"
     },
     {
         "name": "Cheep Cheep Beach",
+        "cup": "Shell Cup",
+        "tip": "Bullet extension: Start of curve on pier section"
+    },
+    {
+        "name": "Toad's Turnpike",
+        "cup": "Shell Cup",
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "Dry Dry Desert",
         "cup": "Banana Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
         "name": "Donut Plains 3",
         "cup": "Banana Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
-        "name": "Toad's Turnpike",
+        "name": "Royal Raceway",
         "cup": "Banana Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "DK Jungle",
+        "cup": "Banana Cup",
+        "tip": "Bullet extension: After hitting ground from second flower jump, shortcut platform before finish line"
     },
     {
         "name": "Wario Stadium",
         "cup": "Leaf Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
         "name": "Sherbet Land",
         "cup": "Leaf Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
         "name": "Music Park",
         "cup": "Leaf Cup",
-        "weight": 1
+        "tip": "Bullet extension: Midway through piano"
     },
     {
         "name": "Yoshi Valley",
         "cup": "Leaf Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
         "name": "Tick-Tock Clock",
         "cup": "Lightning Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
         "name": "Piranha Plant Slide",
         "cup": "Lightning Cup",
-        "weight": 1
+        "tip": "Bullet extension: Right before first underwater ramp"
     },
     {
         "name": "Grumble Volcano",
         "cup": "Lightning Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
         "name": "Rainbow Road",
         "cup": "Lightning Cup",
-        "weight": 1
+        "tip": "Bullet extension: Start of \"8\" loop (look at mini map)"
     },
     {
-        "name": "Wario Stadium",
-        "cup": "Triforce Cup",
-        "weight": 1
+        "name": "Yoshi Circuit",
+        "cup": "Egg Cup",
+        "tip": "Bullet extension: After trick under waterfall"
     },
     {
-        "name": "GCN Rainbow Road",
+        "name": "Excitebike Arena",
+        "cup": "Egg Cup",
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "Dragon Driftway",
+        "cup": "Egg Cup",
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "Mute City",
+        "cup": "Crossing Cup",
+        "tip": "Bullet extension: Start of loop at top of minimap"
+    },
+    {
+        "name": "Wario's Goldmine",
         "cup": "Triforce Cup",
-        "weight": 1
+        "tip": "Bullet extension: Final trickable ramp into the goldmine"
+    },
+    {
+        "name": "SNES Rainbow Road",
+        "cup": "Triforce Cup",
+        "tip": "No bullet extensions"
     },
     {
         "name": "Ice Ice Outpost",
         "cup": "Triforce Cup",
-        "weight": 1
+        "tip": "Bullet extension: End of difficult 2nd shortcut in cave"
     },
     {
         "name": "Hyrule Circuit",
         "cup": "Triforce Cup",
-        "weight": 1
-    },
-    {
-        "name": "Dragon Driftway",
-        "cup": "Bell Cup",
-        "weight": 1
-    },
-    {
-        "name": "Mute City",
-        "cup": "Bell Cup",
-        "weight": 1
-    },
-    {
-        "name": "Wario Stadium",
-        "cup": "Bell Cup",
-        "weight": 1
-    },
-    {
-        "name": "Animal Crossing",
-        "cup": "Bell Cup",
-        "weight": 1
-    },
-    {
-        "name": "Baby Park",
-        "cup": "Golden Dash Cup",
-        "weight": 1
-    },
-    {
-        "name": "Cheese Land",
-        "cup": "Golden Dash Cup",
-        "weight": 1
-    },
-    {
-        "name": "Wild Woods",
-        "cup": "Golden Dash Cup",
-        "weight": 1
-    },
-    {
-        "name": "Animal Crossing",
-        "cup": "Golden Dash Cup",
-        "weight": 1
+        "tip": "No bullet extensions"
     },
     {
         "name": "Neo Bowser City",
-        "cup": "Lucky Cat Cup",
-        "weight": 1
+        "cup": "Bell Cup",
+        "tip": "No bullet extensions"
     },
     {
         "name": "Ribbon Road",
-        "cup": "Lucky Cat Cup",
-        "weight": 1
+        "cup": "Bell Cup",
+        "tip": "Bullet extension: Right before boost ramp that goes to wavy section, after wavy section in shortcut "
+               "under arch"
     },
     {
         "name": "Super Bell Subway",
-        "cup": "Lucky Cat Cup",
-        "weight": 1
+        "cup": "Bell Cup",
+        "tip": "Bullet extension: By curve after first item set after finish line "
     },
     {
         "name": "Big Blue",
-        "cup": "Lucky Cat Cup",
-        "weight": 1
+        "cup": "Bell Cup",
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "Baby Park",
+        "cup": "Crossing Cup",
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "Cheese Land",
+        "cup": "Crossing Cup",
+        "tip": "Welcome to the hype zone\nBullet extension: Left most offroad after finish line right of pile of cheese"
+    },
+    {
+        "name": "Wild Woods",
+        "cup": "Crossing Cup",
+        "tip": "No bullet extensions"
+    },
+    {
+        "name": "Animal Crossing",
+        "cup": "Crossing Cup",
+        "tip": "Bullet extension: Landing after glider before beach"
+    },
+    {
+        "name": "Paris Promenade",
+        "cup": "Golden Dash Cup",
+        "tip": "Bullet extension: Right after coin circle on glider (final lap)"
     },
     {
         "name": "Toad Circuit",
+        "cup": "Golden Dash Cup",
+        "tip": "No bullet extension"
+    },
+    {
+        "name": "Choco Mountain",
+        "cup": "Golden Dash Cup",
+        "tip": "Bullet extension: Right after first crack in bolder section"
+    },
+    {
+        "name": "Coconut Mall",
+        "cup": "Golden Dash Cup",
+        "tip": "Store shortcut at beginning"
+    },
+    {
+        "name": "Tokyo Blur",
+        "cup": "Lucky Cat Cup",
+        "tip": "No bullet extension"
+    },
+    {
+        "name": "Shroom Ridge",
+        "cup": "Lucky Cat Cup",
+        "tip": "No bullet extension"
+    },
+    {
+        "name": "Sky Garden",
+        "cup": "Lucky Cat Cup",
+        "tip": "Bullet extension: Right before finish line after glider"
+    },
+    {
+        "name": "Ninja Hideaway",
+        "cup": "Lucky Cat Cup",
+        "tip": "Bullet extension: Right after stairs on bottom floor"
+    },
+    {
+        "name": "New York Minute",
         "cup": "Turnip Cup",
-        "weight": 1
+        "tip": "Bullet extension: Set right before finish line, right after bridge on offroad on lap 3"
     },
     {
-        "name": "Mario Circuit",
+        "name": "Mario Circuit 3",
         "cup": "Turnip Cup",
-        "weight": 1
+        "tip": "Bullet extension: Middle of \"M\" shape on top of minimap, middle of \"D\" shape on right of minimap"
     },
     {
-        "name": "Rock Rock Mountain",
+        "name": "Kalimari Desert",
         "cup": "Turnip Cup",
-        "weight": 1
+        "tip": "Bullet extension: Right of straightaway on rails, mildly before tunnel on lap 3"
     },
     {
-        "name": "Piranha Plant Pipeway",
+        "name": "Waluigi Pinball",
         "cup": "Turnip Cup",
-        "weight": 1
+        "tip": "Bullet extension: Right off purple ramp before green section"
     },
     {
-        "name": "Airship Fortress",
+        "name": "Sydney Sprint",
         "cup": "Propeller Cup",
-        "weight": 1
+        "tip": "Bullet extension: On 6 ramp section use just before 2nd or 5th ramp, after bend after finish line"
     },
     {
-        "name": "Water Park",
+        "name": "Snow Land",
         "cup": "Propeller Cup",
-        "weight": 1
+        "tip": "Bullet extension: Downhill section before ice"
     },
     {
-        "name": "Sweet Sweet Canyon",
+        "name": "Mushroom Gorge",
         "cup": "Propeller Cup",
-        "weight": 1
+        "tip": "Bullet extension: Little after coin circle in cave before bend, grass bend outside cave"
     },
     {
-        "name": "Thwomp Ruins",
+        "name": "Sky-High Sundae",
         "cup": "Propeller Cup",
-        "weight": 1
-    },
-    {
-        "name": "Mario Circuit",
-        "cup": "Rock Cup",
-        "weight": 1
-    },
-    {
-        "name": "Cheep Cheep Beach",
-        "cup": "Rock Cup",
-        "weight": 1
-    },
-    {
-        "name": "Toad Harbor",
-        "cup": "Rock Cup",
-        "weight": 1
-    },
-    {
-        "name": "Twisted Mansion",
-        "cup": "Rock Cup",
-        "weight": 1
-    },
-    {
-        "name": "Sunshine Airport",
-        "cup": "Moon Cup",
-        "weight": 1
-    },
-    {
-        "name": "Electrodrome",
-        "cup": "Moon Cup",
-        "weight": 1
-    },
-    {
-        "name": "Mount Wario",
-        "cup": "Moon Cup",
-        "weight": 1
-    },
-    {
-        "name": "Cloudtop Cruise",
-        "cup": "Moon Cup",
-        "weight": 1
-    },
-    {
-        "name": "Wii Moo Moo Meadows",
-        "cup": "Fruit Cup",
-        "weight": 1
-    },
-    {
-        "name": "GBA Mario Circuit",
-        "cup": "Fruit Cup",
-        "weight": 1
-    },
-    {
-        "name": "DS Cheep Cheep Beach",
-        "cup": "Fruit Cup",
-        "weight": 1
-    },
-    {
-        "name": "N64 Toad's Turnpike",
-        "cup": "Fruit Cup",
-        "weight": 1
-    },
-    {
-        "name": "DS Tick-Tock Clock",
-        "cup": "Boomerang Cup",
-        "weight": 1
-    },
-    {
-        "name": "3DS Piranha Plant Slide",
-        "cup": "Boomerang Cup",
-        "weight": 1
-    },
-    {
-        "name": "Wii Grumble Volcano",
-        "cup": "Boomerang Cup",
-        "weight": 1
-    },
-    {
-        "name": "N64 Rainbow Road",
-        "cup": "Boomerang Cup",
-        "weight": 1
+        "tip": "Bullet extension: Right after landing with the right pink ramp, jumping from orange part of sprinkled "
+               "bend activate in mid air"
     },
     {
         "name": "Daisy Cruiser",
         "cup": "Feather Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Moonview Highway",
         "cup": "Feather Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Squeaky Clean Sprint",
         "cup": "Feather Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Tour Los Angeles Laps",
         "cup": "Cherry Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Sunset Wilds",
         "cup": "Cherry Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Koopa Cape",
         "cup": "Cherry Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Tour Vancouver Velocity",
         "cup": "Cherry Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Tour Rome Avanti",
         "cup": "Acorn Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "DK Mountain",
         "cup": "Acorn Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Daisy Circuit",
         "cup": "Acorn Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Piranha Plant Cove",
         "cup": "Acorn Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Tour Madrid Dive",
         "cup": "Spiny Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Rosalina's Ice World",
         "cup": "Spiny Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Bowser's Castle 3",
         "cup": "Spiny Cup",
-        "weight": 1
+        "tip": 1
     },
     {
         "name": "Rainbow Road",
         "cup": "Spiny Cup",
-        "weight": 1
+        "tip": 1
     }
 ]
 cup_colors = {
