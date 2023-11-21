@@ -301,7 +301,7 @@ maps = [
     {
         "name": "Waluigi Pinball",
         "cup": "Turnip Cup",
-        "tip": "Bullet extension: Right off purple ramp before green section"
+        "tip": "Bullet extension: Right off purple ramp before green section, between two flippers in main section"
     },
     {
         "name": "Sydney Sprint",
@@ -325,79 +325,169 @@ maps = [
                "bend activate in mid air"
     },
     {
+        "name": "London Loop",
+        "cup": "Rock Cup",
+        "tip": "Bullet extension: After landing from ramp on lap 1, same bend on lap 2"
+    },
+    {
+        "name": "Boo Lake",
+        "cup": "Rock Cup",
+        "tip": "Bullet extension: Use after first entering the water"
+    },
+    {
+        "name": "Maple Treeway",
+        "cup": "Rock Cup",
+        "tip": "Bullet extension: Use before boost entering bend by halfpipe"
+    },
+    {
+        "name": "Rock Rock Mountain",
+        "cup": "Rock Cup",
+        "tip": "Unknown bullet extensions"
+    },
+    {
+        "name": "Rainbow Road",
+        "cup": "Moon Cup",
+        "tip": "Bullet extension: Right before two boost panels previous to the wavy section, mildly before arch on "
+               "the moon"
+    },
+    {
+        "name": "Merry Mountain",
+        "cup": "Moon Cup",
+        "tip": "Bullet extension: Right as you find straightaway before wooden bridge, right before anti grav panel "
+               "after bridge"
+    },
+    {
+        "name": "Peach Gardens",
+        "cup": "Moon Cup",
+        "tip": "Bullet extension: Last grass bend by finish line (lap 1 + 2), around same spot in reverse on lap 3, "
+               "just after Peach statue from glider on lap 3"
+    },
+    {
+        "name": "Berlin Byways",
+        "cup": "Moon Cup",
+        "tip": "Bullet extension: Just after glider, grass bend by berlin wall"
+    },
+    {
+        "name": "Amsterdam Drift",
+        "cup": "Fruit Cup",
+        "tip": "Bullet extension: Use on grass bend after finish line, grass bend in tulip field"
+    },
+    {
+        "name": "Riverside Park",
+        "cup": "Fruit Cup",
+        "tip": "Bullet extension: Use mildly before bridge previous to cave"
+    },
+    {
+        "name": "DK Summit",
+        "cup": "Fruit Cup",
+        "tip": "Bullet extension: In first snow pile downhill after cannon"
+    },
+    {
+        "name": "Yoshi's Island",
+        "cup": "Fruit Cup",
+        "tip": "Bullet extension: In right offroad after landing from glider, further up if bridge is created, "
+               "underwater between crabs"
+    },
+    {
+        "name": "Bangkok Rush",
+        "cup": "Boomerang Cup",
+        "tip": "Bullet extension: Entering parking structure"
+    },
+    {
+        "name": "Mario Circuit",
+        "cup": "Boomerang Cup",
+        "tip": "Bullet extension: Left of first rock when entering forest section, turn before the big turn, "
+               "right after finish line"
+    },
+    {
+        "name": "Walugi Stadium",
+        "cup": "Boomerang Cup",
+        "tip": "Unknown bullet extensions"
+    },
+    {
+        "name": "Singapore Speedway",
+        "cup": "Boomerang Cup",
+        "tip": "Unknown bullet extensions"
+    },
+    {
+        "name": "Athens Dash",
+        "cup": "Feather Cup",
+        "tip": "Bullet extension: Right before end of glider when entering cave"
+    },
+    {
         "name": "Daisy Cruiser",
         "cup": "Feather Cup",
-        "tip": 1
+        "tip": "Bullet extension: Entering pool from right side, end of stairs before finish line"
     },
     {
         "name": "Moonview Highway",
         "cup": "Feather Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Squeaky Clean Sprint",
         "cup": "Feather Cup",
-        "tip": 1
+        "tip": "Bullet extension: Mildly before drain in tub, in left soap by fan"
     },
     {
         "name": "Tour Los Angeles Laps",
         "cup": "Cherry Cup",
-        "tip": 1
+        "tip": "Bullet extension: After ramp with double items at beach, slightly before lap line before lap 2"
     },
     {
         "name": "Sunset Wilds",
         "cup": "Cherry Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Koopa Cape",
         "cup": "Cherry Cup",
-        "tip": 1
+        "tip": "Bullet extension: After ramp to riverslide section, before first ramp in underwater section"
     },
     {
         "name": "Tour Vancouver Velocity",
         "cup": "Cherry Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Tour Rome Avanti",
         "cup": "Acorn Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "DK Mountain",
         "cup": "Acorn Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Daisy Circuit",
         "cup": "Acorn Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Piranha Plant Cove",
         "cup": "Acorn Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Tour Madrid Dive",
         "cup": "Spiny Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Rosalina's Ice World",
         "cup": "Spiny Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Bowser's Castle 3",
         "cup": "Spiny Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     },
     {
         "name": "Rainbow Road",
         "cup": "Spiny Cup",
-        "tip": 1
+        "tip": "Unknown bullet extensions"
     }
 ]
 cup_colors = {
