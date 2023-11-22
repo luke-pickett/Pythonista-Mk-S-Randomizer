@@ -530,11 +530,11 @@ tip_label = view["Tip_Label"]
 
 
 class MapTable(object):
-    def tableview_did_select(self, tableview, section, row, map_element, cup_element, tip_element):
-        map_element.text = randomMaps[row]["name"]
-        cup_element.text = randomMaps[row]["cup"]
-        cup_element.text_color = cup_colors[randomMaps[row]["cup"]]
-        tip_element.text = randomMaps[row]["tip"]
+    def tableview_did_select(self, tableview, section, row):
+        map_label.text = randomMaps[row]["name"]
+        cup_label.text = randomMaps[row]["cup"]
+        cup_label.text_color = cup_colors[randomMaps[row]["cup"]]
+        tip_label.text = randomMaps[row]["tip"]
         
 
 table.delegate = MapTable()
