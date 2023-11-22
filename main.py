@@ -518,7 +518,7 @@ cup_colors = {
 }
 
 randomMaps = random.sample(maps, 8)
-data = [randomMaps.index(item) for item in randomMaps]
+data = [item["name"] for item in randomMaps]
 
 # Ui stuff
 view = ui.load_view("UI.pyui")
